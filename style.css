@@ -1,0 +1,163 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+.container {
+  display: inline-block;
+
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.product {
+  padding: 6px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: black;
+  color: rgb(226, 75, 100);
+  font-weight: bold;
+}
+.category {
+  padding: 6px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: black;
+  color: rgb(226, 75, 100);
+  font-weight: bold;
+}
+.price {
+  padding: 6px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: black;
+  color: rgb(226, 75, 100);
+  font-weight: bold;
+}
+.delivery {
+  padding: 6px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: black;
+  color: rgb(226, 75, 100);
+  font-weight: bold;
+}
+.save {
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  color: rgb(232, 16, 16);
+  background-color: gold;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.save:hover {
+  background-color: rgb(116, 12, 81);
+  transition: 0.5s;
+}
+.list {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top: 50px;
+  color: rgb(236, 45, 77);
+}
+.form {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEEuSKv1VSK9XoW7PdK-Lpm0TmcW6RfFL9Xw&usqp=CAU");
+  background-size: cover;
+  width: 300px;
+  height: 350px;
+  background-color: lightslategrey;
+  /* text-align: center; */
+  padding-top: 60px;
+  padding-left: 50px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+
+.name {
+  width: 245px;
+  height: 25px;
+  border-radius: 5px;
+  font-family: serif;
+  cursor: initial;
+  letter-spacing: 3px;
+}
+.name:hover {
+  width: 250px;
+  height: 30px;
+}
+.post {
+  width: 245px;
+  height: 25px;
+  border-radius: 5px;
+  font-family: serif;
+  cursor: initial;
+  letter-spacing: 2px;
+}
+.post:hover {
+  width: 250px;
+  height: 30px;
+}
+.message {
+  width: 245px;
+  height: 25px;
+  border-radius: 5px;
+  font-family: serif;
+  cursor: initial;
+}
+.message:hover {
+  width: 250px;
+  height: 30px;
+}
+.send {
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  color: black;
+  background-color: seagreen;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: serif;
+}
+.clear {
+  height: 35px;
+  width: 120px;
+  padding: 10px;
+  color: black;
+  background-color: seagreen;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: serif;
+}
+.send:hover {
+  background-color: rgb(16, 138, 126);
+  transition: 0.3s;
+  height: 38px;
+  width: 125px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+.clear:hover {
+  background-color: rgb(16, 138, 126);
+  transition: 0.3s;
+  height: 38px;
+  width: 125px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
